@@ -27,7 +27,7 @@ body {
 	background-repeat: repeat, no-repeat;
 	background-size: auto, 100% 100%;
 	background-attachment: fixed;
-	/* Désactiver scroll fonction */
+	/* Désactiver / Activer scroll fonction */
 	overflow-y: scroll; /* scroll / hidden */
     padding-top: 60px;
 }
@@ -106,7 +106,6 @@ pre {
 table {
     display: flex;
     margin-left: 405px; /* Centrage du message d'erreur VAR_DUMP */
-    margin-top: 200px;
 }
 
 small {
@@ -195,6 +194,7 @@ p {
     color: rgba(255, 255, 255, 0.507);
 }
 
+/* -----------------------------------------------------------------------------*/
 /* Responsive iPhone X */
 @media screen and (max-width: 736px) {
 
@@ -262,6 +262,7 @@ p {
 
 }
 
+/* -----------------------------------------------------------------------------*/
 /* Effet Kikou LOL du titre du formulaire */
 
 .effetneon {

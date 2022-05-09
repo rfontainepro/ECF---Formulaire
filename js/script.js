@@ -18,18 +18,6 @@ countMessage();
 
 /* --------------------------------------------------------------------------------------------------------------*/
 
-
-/* Compteur Message */
-function countMessage() {
-    // La fonction count calcule la longueur de la chaîne de caractère contenue dans inputmessage
-    var countMessage = 50-inputmessage.value.length;
-    // Affche cette valeur dans ID=compteur
-    compteur_message.innerHTML= countMessage;
-
-}
-
-inputmessage.addEventListener('keyup', countMessage);
-
 /* Compteur Nom */
 function countName() {
     // La fonction count calcule la longueur de la chaîne de caractère contenue dans inputmessage
@@ -51,3 +39,14 @@ function countFirstname() {
 }
 
 inputfirstname.addEventListener('keyup', countFirstname);
+
+/* Compteur Message */
+function countMessage() {
+    // La fonction count calcule la longueur de la chaîne de caractère contenue dans inputmessage
+    var countMessage = 50-inputmessage.value.length;
+    // Affche cette valeur dans ID=compteur
+    compteur_message.innerHTML= countMessage;
+
+}
+
+inputmessage.addEventListener('keyup', countMessage);

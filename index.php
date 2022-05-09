@@ -1,4 +1,4 @@
-
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <?php
     session_start(); /* Ouverture de la session pour afficher les informations à l'utilisateur */
 ?>
@@ -50,7 +50,7 @@
                 <div class="starter-template">
                         
                     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-                    <form action="post_contact.php" method="POST"> <!-- Page qui traitera les données POST_CONTACT.PHP -->
+                    <form action="post_contact.php" method="POST"> <!-- Page qui traitera les données du formulaire POST_CONTACT.PHP -->
 
                             <div class="row">
 
@@ -110,7 +110,8 @@
 
                     <div id=msg_error>
 
-                    <!-- VAR_DUMP -->
+                        <!-- VAR_DUMP -->
+                        <!-- <?php var_dump($errors) ?> -->
 
                     </div>
 
