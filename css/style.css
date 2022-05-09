@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+} /* RESET CSS */
+
+#main {
+    width: 1000px;
+    height: 600px;
+    user-select: none; /* Désactiver la sélection du texte */
+    background: #2a2a2a;
+    opacity: 80%;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.row {
+    padding-left: 270px; /* Centrage du formulaire */
+}
+
+body {
+	background-image: url("images/overlay.png"), url("images/bg.jpg");
+	background-repeat: repeat, no-repeat;
+	background-size: auto, 100% 100%;
+	background-attachment: fixed;
+	/* Désactiver scroll fonction */
+	overflow-y: scroll; /* scroll / hidden */
+    padding-top: 60px;
+}
+
+.nom, .prenom {
+    height: 20px;
+    padding: 20px;
+}
+
+.email {
+    height: 20px;
+    padding: 20px;
+}
+
+.message {
+    height: 20px;
+    padding: 20px;
+}
+
+input {
+    margin-top: 10px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    border: 1px black solid;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+body, input {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #777777;
+    line-height: 1.75em;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 150px;
+}
+
+#prog {
+    margin-top: 40px;
+    margin-left: 150px; /* Centrage de la barre k2000 */
+}
+
+#diag {
+    width: 320px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: 200px;
+}
+
+/* Message d'erreur */
+fieldset {
+    margin-top: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 100px;
+    margin: auto;
+    margin-top: 140px;
+    background-color: white;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em -35px;
+    color:red;
+}
+
+table {
+    display: flex;
+    margin-left: 405px; /* Centrage du message d'erreur VAR_DUMP */
+    margin-top: 200px;
+}
+
+small {
+    color: white;
+    background-color: black;
+    margin-left: -250px;
+}
+
+#msg_error {
+    width: 100px;
+    height: 150px;
+    margin-right: 250px;
+}
+
+/* Positionnement du message de confirmation d'envoi */
+h3 {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+#inputmessage {
+    width: 400px;
+    height: 100px;
+}
+
+form input[type="text"], form input[type="email"] {
+    -webkit-appearance: none;
+    border: 0;
+    background: #383434;
+    padding: 0.75em;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    border-radius: 10px;
+}
+
+/* Effet background blanc lors de la saisie */
+form input[type="text"]:focus, form input[type="email"]:focus {
+    background: #f8f8f8;
+    transition: 1.5s;
+}
+
+/* Bouton Envoyer */
+button {
+    display: inline-block;
+    background-color: #222222;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 185px; /* Centrage du bouton Envoyer */
+    margin-top: 140px;
+    transition: 0.8s;
+}
+
+/* Changement de couleurs du bouton au survol */
+button:hover {
+    color: red;
+    background-color: white;
+    transition: 0.8s;
+}
+
+body, input {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #777777;
+    line-height: 1.75em;
+    margin-bottom: 10px;
+}
+
+span {
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.507);
+}
+
+p {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.507);
+}
+
+/* Responsive iPhone X */
+@media screen and (max-width: 736px) {
+
+
+    body {
+        background-image: url(images/overlay.png), url(images/bg.jpg);
+        background-repeat: repeat, no-repeat;
+        background-size: auto, 100% 100%;
+        background-attachment: fixed;
+        overflow-y: scroll;
+    }
+
+    #main {
+        width: 330px;
+        height: 600px;
+        background: #2a2a2a;
+        opacity: 80%;
+        border-radius: 50px;
+    }
+
+    .row {
+        padding-left: 35px; /* Centrage du formulaire */
+    }
+
+    textarea, input {
+        margin-top: 10px;
+        background-color: rgb(221, 221, 221);
+        border-radius: 10px;
+        border: 1px black solid;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+
+    #inputmessage {
+        width: 200px;
+        height: 100px;
+    }
+
+    button {
+        margin-left: 85px; /* Centrage du bouton Envoyer */
+    }
+
+    #prog {
+        margin-left: 53px; /* Centrage de la barre k2000 */
+    }
+
+    table {
+        margin-left: 70px; /* Centrage du message d'erreur VAR_DUMP */
+    }
+
+    small {
+        margin-left: -30px;
+    }
+
+    /* Positionnement du message de confirmation d'envoi */
+    h3 {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+}
+
+/* Effet Kikou LOL du titre du formulaire */
+
+.effetneon {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 42px rgb(18, 50, 230),
+        0 0 77px rgb(18, 50, 230),
+        0 0 100px rgb(18, 50, 230);
+    animation: lumiere 1s infinite linear;
+}
+
+@keyframes lumiere {
+    0%{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 42px rgb(18, 50, 230),
+        0 0 77px rgb(18, 50, 230),
+        0 0 100px rgb(18, 50, 230);
+    }
+
+   50%{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 32px rgb(0, 0, 0),
+        0 0 87px rgb(0, 0, 0),
+        0 0 120px rgb(0, 0, 0);
+    }
+}
+
+.effetneon span {
+    font-size: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    min-height: 100vh;
+}
