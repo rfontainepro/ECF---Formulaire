@@ -1,7 +1,5 @@
-# ECF---Formulaire
+# ECF - Formulaire de contact
 --------------------------------------------------------------------------------
-ECF
-Formulaire de contact
 Sujet :
 Réaliser un formulaire de contact, du dossier de conception à
 l’envoi de mail.
@@ -11,7 +9,7 @@ l’envoi de mail.
 ● Réaliser des wireframe
 ● Concevoir l’UI et l’UX
 ● Réaliser une charte graphique
-● Réaliser des maquette
+● Réaliser des maquettes
 (Vos zoning, wireframe et maquette doivent être déclinés aux formats Desktop, Tablette
 et Mobile)
 
@@ -85,4 +83,4 @@ nécessaire, un dossier media contenant toutes vos images ou logo si nécessaire
 *******************
 ● Une fois terminé, mettre votre projet en ligne sur vos serveurs de promo
 ● Projet individuel
-● Durée d’une semaine (du 02/05/2022 au 06/05/2022
+● Durée d’une semaine (du 02/05/2022 au 06/05/2022)
