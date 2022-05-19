@@ -33,12 +33,12 @@ body {
 }
 
 .nom, .prenom {
-    height: 30px;
+    height: 40px;
     padding: 20px;
 }
 
 .email {
-    height: 30px;
+    height: 40px;
     padding: 20px;
 }
 
@@ -71,7 +71,7 @@ label {
 }
 
 #prog {
-    margin-top: 25px;
+    margin-top: 5px; /* Hauteur de la barre K2000 */
     margin-left: 150px; /* Centrage de la barre k2000 */
 }
 
@@ -235,7 +235,7 @@ p {
     }
 
     button {
-        margin-left: 85px; /* Centrage du bouton Envoyer */
+        margin-left: 90px; /* Centrage du bouton Envoyer */
     }
 
     #prog {
@@ -258,6 +258,22 @@ p {
 
     p {
         margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #main {
+        width: 300px; /* Largeur du formulaire */
+        height: 600px;
+        background: #2a2a2a;
+        opacity: 80%;
+        border-radius: 50px;
+    }
+
+    .row {
+        padding-left: 8px; /* Centrage du formulaire */
     }
 
 }
