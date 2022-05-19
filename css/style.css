@@ -33,17 +33,17 @@ body {
 }
 
 .nom, .prenom {
-    height: 20px;
+    height: 30px;
     padding: 20px;
 }
 
 .email {
-    height: 20px;
+    height: 30px;
     padding: 20px;
 }
 
 .message {
-    height: 20px;
+    height: 150px;
     padding: 20px;
 }
 
@@ -71,7 +71,7 @@ label {
 }
 
 #prog {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 150px; /* Centrage de la barre k2000 */
 }
 
@@ -162,7 +162,7 @@ button {
     margin-bottom: 10px;
     border-radius: 30px;
     margin-left: 185px; /* Centrage du bouton Envoyer */
-    margin-top: 140px;
+    margin-top: 10px;
     transition: 0.8s;
 }
 
